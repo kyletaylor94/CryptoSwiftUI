@@ -31,8 +31,7 @@ struct AllCoinsView: View {
                 VStack{
                     ForEach(viewModel.coins) { coin in
                         NavigationLink {
-                            LazyNavigationView(                            CoinDetailsView(coin: coin)
-)
+                            LazyNavigationView(CoinDetailsView(coin: coin))
                         } label: {
                             CoinsRowView(coin: coin)
                         }

@@ -43,7 +43,6 @@ struct CoinDetailsView: View {
             }
             
             .padding()
-      
     }
 }
 

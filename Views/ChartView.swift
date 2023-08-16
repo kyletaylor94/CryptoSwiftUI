@@ -49,7 +49,6 @@ struct ChartView: View {
         }
         .foregroundColor(.red)
         .shadow(color: .red,radius: 20)
-        
         .chartYScale(domain: ClosedRange(uncheckedBounds: (lower: viewModel.minPrice, upper: viewModel.maxPrice)))
     }
 }

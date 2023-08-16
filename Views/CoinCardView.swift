@@ -45,14 +45,12 @@ struct CoinCardView: View {
             .stroke(Color(.systemGray4), lineWidth: 2)
             .shadow(color: Color.gray.opacity(0.6), radius: 10)
         )
-        
-            
-            
+         
     }
 }
 
-//struct CoinCardView_Previews: PreviewProvider {
-  //  static var previews: some View {
-        //CoinCardView(coin: CoinsModel)
-  //  }
-//}
+/*struct CoinCardView_Previews: PreviewProvider {
+    static var previews: some View {
+        CoinCardView(coin: CoinsModel)
+    }
+}*/
